@@ -1,0 +1,72 @@
+#%RAML 1.0 Trait
+responses:
+  400: 
+    body: 
+      application/json:
+        type: object
+        properties: 
+          message: string
+        example: 
+          value:
+            message: !include ../responses/400-response.json
+          
+  401: 
+    body: 
+      application/json:
+        type: object
+        properties: 
+          message: string
+        example: 
+          value:
+            message: !include ../responses/401-response.json
+          
+  404: 
+    body: 
+      application/json:
+        type: object
+        properties: 
+          message: string
+        example: 
+          value:
+            message: !include ../responses/404-response.json
+          
+  405: 
+    body: 
+      application/json:
+        type: object
+        properties: 
+          message: string
+        example: 
+          value:
+            message: !include ../responses/405-response.json 
+
+  406: 
+    body: 
+      application/json:
+        type: object
+        properties: 
+          message: string
+        example: 
+          value:
+            message: !include ../responses/406-response.json      
+          
+  415: 
+    body: 
+      application/json:
+        type: object
+        properties: 
+          message: string
+        example: 
+          value:
+            message: !include ../responses/415-response.json
+          
+  500: 
+    body: 
+      application/json:
+        type: object
+        properties: 
+          message: string
+        example: 
+          value:
+            message: !include ../responses/500-response.json
+          

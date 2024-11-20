@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "ResponseMessage": "Patient updated",
+    "data": [
+        {
+            "PatientId": "ABC"
+        }
+    ]
+}

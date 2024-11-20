@@ -1,0 +1,26 @@
+{
+    "userId": "123",
+    "practiceId": " XYZ123",
+    "data": [
+        {
+            "PatientId": "123",
+            "FirstName": "John",
+            "LastName": "Doe",
+            "DateOfBirth": "",
+			      "Sex": "",
+            "StreetAddress1": "test",
+            "StreetAddress2": "test",
+            "City": "test",
+            "State": "test",
+            "Zip": "test",
+            "Phone": "test",
+            "Email": "test",
+            "Language": "test",
+            "FirstNameAlt": "test",
+            "LastNameAlt": "test",
+            "PhoneAlt": "test",
+            "ConsentVoiceMail": "test",
+            "ConsentText": "test"
+        }
+    ]
+}

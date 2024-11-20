@@ -1,0 +1,26 @@
+#%RAML 1.0
+title: sample-rest
+version: v1
+protocols: HTTPS
+mediaType: 
+- application/json
+securitySchemes:  
+   basic:
+     description: |
+      This API supports Authentication
+     type: Basic Authentication
+
+traits:
+  errorResponses: !include library/traits/errorResponse.raml
+  
+/patient:
+  post:
+    securedBy: [basic]
+    body:
+      application/json:
+        example: !include /library/requests/createPatientRequest.json
+    responses:
+      201:
+        body:
+          application/json:
+            example: !include /library/responses/createPatientResponse.json           

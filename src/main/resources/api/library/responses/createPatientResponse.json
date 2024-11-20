@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "ResponseMessage": "Patient created",
+    "data": [
+        {
+            "PatientId": "DEF"
+        }
+    ]
+}

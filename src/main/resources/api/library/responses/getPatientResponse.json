@@ -1,0 +1,26 @@
+ {
+                "success": true,
+                "ResponseMessage": "Patient retrieved",
+                "data": [
+                    {
+                       "PatientId": "ABC",
+                       "FirstName": "John",
+            "LastName": "Doe",
+            "DateOfBirth": "test",
+            "Sex": "test",
+            "StreetAddress1": "test",
+            "StreetAddress2": "test",
+            "City": "test",
+            "State": "test",
+            "Zip": "test",
+            "Phone": "test",
+            "Email": "test",
+            "Language": "test",
+            "FirstNameAlt": "test",
+            "LastNameAlt": "test",
+            "PhoneAlt": "test",
+            "ConsentVoiceMail": "test",
+            "ConsentText": "test"
+                    }
+                ]
+              }
